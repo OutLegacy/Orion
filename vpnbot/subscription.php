@@ -222,7 +222,7 @@ switch (true) {
     <meta name="theme-color" content="#3b82f6" id="themeColor">
     <meta name="description" content="<?= $metaDescription ?>" id="metaDesc">
     <title id="pageTitle"><?= $metaTitle ?></title>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script async src="https://telegram.org/js/telegram-web-app.js"></script>
     <script type="module" defer>
     import { polyfillCountryFlagEmojis } from "https://cdn.skypack.dev/country-flag-emoji-polyfill";
     polyfillCountryFlagEmojis();
